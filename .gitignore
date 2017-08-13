@@ -22,5 +22,15 @@
 
 .byebug_history
 
+
 .config.ru
 Rakefile
+db/*.sqlite3
+log/*.log
+tmp/**/*
+tmp/**/*
+/tmp/
+doc/
+*.swp
+*~
+.DS_store
