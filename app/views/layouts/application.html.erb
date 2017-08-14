@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio</title>
+    <title>Portfolio : Default title</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+  
+  <header>
+  <div
+  <div id="menu">
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">WebSiteName</a>
+			</div>
+			<ul class="nav navbar-nav">
+			  <li class="active"><a href="#">Home</a></li>
+			  <li><a href="#">Link</a></li>
+			  <li><a href="#">Link</a></li>
+			</ul>
+			<button class="btn btn-danger navbar-btn">Button</button>
+		  </div>
+	</nav>
+	</nav>
+  
+  </div>
+  </header>
+  
     <%= yield %>
   </body>
 </html>
